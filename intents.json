@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "account_balance",
+    "patterns": [
+      "What is my account balance?",
+      "How much money do I have?",
+      "Check my bank balance",
+      "Tell me my balance"
+    ],
+    "responses": [
+      "You can check your account balance through your bank's mobile app, internet banking, ATM, or official balance enquiry service."
+    ]
+  },
+  {
+    "tag": "money_deposit",
+    "patterns": [
+      "How can I deposit money?",
+      "I want to deposit cash",
+      "How do I add money to my account?",
+      "Tell me about cash deposits"
+    ],
+    "responses": [
+      "You can deposit cash at your bank branch or an eligible cash deposit machine. Carry your account details and follow the bank's instructions."
+    ]
+  },
+  {
+    "tag": "money_withdrawal",
+    "patterns": [
+      "How can I withdraw money?",
+      "I want to take out cash",
+      "How do I withdraw money from my account?",
+      "Tell me about cash withdrawal"
+    ],
+    "responses": [
+      "You can withdraw money using an ATM, by visiting your bank branch, or through other withdrawal services offered by your bank."
+    ]
+  },
+  {
+    "tag": "bank_loan",
+    "patterns": [
+      "How can I get a bank loan?",
+      "I need a personal loan",
+      "What are the loan requirements?",
+      "Tell me about bank loans"
+    ],
+    "responses": [
+      "Loan eligibility depends on your income, credit history, repayment capacity, and the bank's policies. Contact your bank to check the available options."
+    ]
+  },
+  {
+    "tag": "credit_card",
+    "patterns": [
+      "How can I apply for a credit card?",
+      "I want a new credit card",
+      "What is a credit card?",
+      "Tell me about credit cards"
+    ],
+    "responses": [
+      "You can apply through your bank's official website or branch. Approval depends on eligibility criteria and the bank's assessment."
+    ]
+  },
+  {
+    "tag": "debit_card",
+    "patterns": [
+      "How can I get a debit card?",
+      "I need a new ATM card",
+      "How do I activate my debit card?",
+      "My debit card is not working"
+    ],
+    "responses": [
+      "You can request or activate a debit card using your bank's official channels. If your card is not working, contact your bank for assistance."
+    ]
+  },
+  {
+    "tag": "bank_ifsc",
+    "patterns": [
+      "What is an IFSC code?",
+      "How can I find my bank IFSC code?",
+      "Where is the IFSC code written?",
+      "I need my branch IFSC code"
+    ],
+    "responses": [
+      "An IFSC code identifies a bank branch for electronic fund transfers in India. You can find it on your cheque book, passbook, or the bank's official website."
+    ]
+  },
+  {
+    "tag": "fixed_deposit",
+    "patterns": [
+      "What is a fixed deposit?",
+      "How can I open an FD?",
+      "Tell me about fixed deposits",
+      "Can I earn interest on an FD?"
+    ],
+    "responses": [
+      "A fixed deposit lets you invest money for a chosen tenure at an interest rate offered by the bank. Check current rates, tenure, and withdrawal rules before investing."
+    ]
+  },
+  {
+    "tag": "bank_statement",
+    "patterns": [
+      "How can I get my bank statement?",
+      "I need my account statement",
+      "Show me my transaction history",
+      "How do I download a bank statement?"
+    ],
+    "responses": [
+      "You can usually download your bank statement through mobile banking or internet banking, or request one from your bank branch."
+    ]
+  },
+  {
+    "tag": "failed_transaction",
+    "patterns": [
+      "My bank transaction failed",
+      "Money was deducted but not received",
+      "My UPI payment failed",
+      "How can I get a failed payment refund?"
+    ],
+    "responses": [
+      "Check your transaction status and allow the applicable reversal period. If the money is not returned, raise a complaint through your bank's official app or customer support using the transaction reference number."
+    ]
+  }
+]
