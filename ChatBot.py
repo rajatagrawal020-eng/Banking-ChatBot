@@ -40,6 +40,8 @@ def chatbot(input_text):
         if intent["tag"] == tag:
             response = random.choice(intent["responses"])
             return response
+            
+counter = 0
 
 def main():
     global counter
