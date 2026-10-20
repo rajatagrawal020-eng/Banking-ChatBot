@@ -45,34 +45,30 @@ def chatbot(input_text):
   tag = clf.predict(input_vector)[0]
   for intent in intents:
     if intent["tag"] == tag:
-      response = random.choice(intent["responses"])
-      return response
+      return random.choice(intent["responses"])
   return "Maaf kijiye, main ise samajh nahi paya."
 
 
-counter = 0
+# Session State for Chat History
+if "messages" not in st.session_state:
+  st.session_state.messages = []
 
+# Previous Messages Render Karein
+for message in st.session_state.messages:
+  with st.chat_message(message["role"]):
+    st.markdown(message["content"])
 
-def main():
-  global counter
-  st.write("Welcome to the Banking Chatbot!")
+# User Input Box (Bottom)
+if prompt := st.chat_input("Ask another question..."):
+  # User ka message screen par dikhayein
+  st.session_state.messages.append({"role": "user", "content": prompt})
+  with st.chat_message("user"):
+    st.markdown(prompt)
 
-  counter += 1
-  user_input = st.text_input("You:", key=f"user_input_{counter}")
+  # Chatbot response generate karein
+  response = chatbot(prompt)
 
-  if user_input:
-    response = chatbot(user_input)
-    st.text_area(
-        "Chatbot:",
-        value=response,
-        height=100,
-        key=f"chatbot_response_{counter}",
-    )
-
-    if response.lower() in ["goodbye", "bye"]:
-      st.write("Thanks")
-      st.stop()
-
-
-if __name__ == "__main__":
-  main()
+  # Chatbot ka response screen par dikhayein
+  st.session_state.messages.append({"role": "assistant", "content": response})
+  with st.chat_message("assistant"):
+    st.markdown(response)
