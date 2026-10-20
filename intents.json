@@ -1,122 +1,136 @@
 [
   {
-    "tag": "account_balance",
+    "tag": "greeting",
     "patterns": [
-      "What is my account balance?",
-      "How much money do I have?",
-      "Check my bank balance",
-      "Tell me my balance"
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good evening",
+      "is anyone there",
+      "namaste"
     ],
     "responses": [
-      "You can check your account balance through your bank's mobile app, internet banking, ATM, or official balance enquiry service."
+      "Hello! Welcome to Banking Assistant. How can I help you today?",
+      "Hi there! How may I assist you with your banking needs?",
+      "Greetings! What can I do for you today?"
     ]
   },
   {
-    "tag": "money_deposit",
+    "tag": "goodbye",
     "patterns": [
-      "How can I deposit money?",
-      "I want to deposit cash",
-      "How do I add money to my account?",
-      "Tell me about cash deposits"
+      "bye",
+      "goodbye",
+      "see you later",
+      "thanks",
+      "thank you",
+      "exit"
     ],
     "responses": [
-      "You can deposit cash at your bank branch or an eligible cash deposit machine. Carry your account details and follow the bank's instructions."
+      "Thank you for contacting us. Have a great day!",
+      "Goodbye! Feel free to reach out if you need further help.",
+      "You're welcome! Have a wonderful day ahead."
     ]
   },
   {
-    "tag": "money_withdrawal",
+    "tag": "check_balance",
     "patterns": [
-      "How can I withdraw money?",
-      "I want to take out cash",
-      "How do I withdraw money from my account?",
-      "Tell me about cash withdrawal"
+      "check my balance",
+      "how much money do I have",
+      "show my account balance",
+      "what is my balance",
+      "balance enquiry",
+      "account balance"
     ],
     "responses": [
-      "You can withdraw money using an ATM, by visiting your bank branch, or through other withdrawal services offered by your bank."
+      "You can check your balance instantly via our Mobile Banking App, Net Banking portal, or by sending 'BAL' to our official SMS service number."
     ]
   },
   {
-    "tag": "bank_loan",
+    "tag": "account_number",
     "patterns": [
-      "How can I get a bank loan?",
-      "I need a personal loan",
-      "What are the loan requirements?",
-      "Tell me about bank loans"
+      "what is my account number",
+      "where can I find my account number",
+      "how to know my account number",
+      "find account details"
     ],
     "responses": [
-      "Loan eligibility depends on your income, credit history, repayment capacity, and the bank's policies. Contact your bank to check the available options."
+      "Your account number is available on the first page of your physical passbook, printed on your cheque book, and listed under your profile on our Mobile Banking app."
     ]
   },
   {
-    "tag": "credit_card",
+    "tag": "account_statement",
     "patterns": [
-      "How can I apply for a credit card?",
-      "I want a new credit card",
-      "What is a credit card?",
-      "Tell me about credit cards"
+      "how to view account statement",
+      "download bank statement",
+      "get mini statement",
+      "download statement pdf",
+      "check recent transactions"
     ],
     "responses": [
-      "You can apply through your bank's official website or branch. Approval depends on eligibility criteria and the bank's assessment."
+      "You can view and download e-statements (PDF format) under the 'e-Services / Statements' section in Net Banking or Mobile Banking."
     ]
   },
   {
-    "tag": "debit_card",
+    "tag": "block_card",
     "patterns": [
-      "How can I get a debit card?",
-      "I need a new ATM card",
-      "How do I activate my debit card?",
-      "My debit card is not working"
+      "block my debit card",
+      "I lost my credit card",
+      "how to block ATM card",
+      "stolen card report",
+      "hotlist my card"
     ],
     "responses": [
-      "You can request or activate a debit card using your bank's official channels. If your card is not working, contact your bank for assistance."
+      "To block your card immediately, open the Mobile Banking app and go to 'Cards' > 'Block Card', or call our toll-free customer emergency helpline at 1800-111-2222."
     ]
   },
   {
-    "tag": "bank_ifsc",
+    "tag": "apply_card",
     "patterns": [
-      "What is an IFSC code?",
-      "How can I find my bank IFSC code?",
-      "Where is the IFSC code written?",
-      "I need my branch IFSC code"
+      "how to apply for debit card",
+      "apply for credit card",
+      "request new ATM card",
+      "get a new credit card"
     ],
     "responses": [
-      "An IFSC code identifies a bank branch for electronic fund transfers in India. You can find it on your cheque book, passbook, or the bank's official website."
+      "You can apply for a new Credit or Debit Card directly from our mobile app under the 'Cards' menu or by visiting your nearest branch."
     ]
   },
   {
-    "tag": "fixed_deposit",
+    "tag": "loans_info",
     "patterns": [
-      "What is a fixed deposit?",
-      "How can I open an FD?",
-      "Tell me about fixed deposits",
-      "Can I earn interest on an FD?"
+      "what are the loan interest rates",
+      "how to apply for home loan",
+      "personal loan details",
+      "car loan rate of interest",
+      "education loan details"
     ],
     "responses": [
-      "A fixed deposit lets you invest money for a chosen tenure at an interest rate offered by the bank. Check current rates, tenure, and withdrawal rules before investing."
+      "We offer Home Loans starting at 8.4% p.a., Personal Loans starting at 10.5% p.a., and Education Loans. You can apply directly through the 'Loans' section on our portal."
     ]
   },
   {
-    "tag": "bank_statement",
+    "tag": "branch_timings",
     "patterns": [
-      "How can I get my bank statement?",
-      "I need my account statement",
-      "Show me my transaction history",
-      "How do I download a bank statement?"
+      "what are the bank timings",
+      "when does bank open",
+      "bank working hours",
+      "is bank open today"
     ],
     "responses": [
-      "You can usually download your bank statement through mobile banking or internet banking, or request one from your bank branch."
+      "Our bank branches operate from 10:00 AM to 4:00 PM (Monday to Saturday), except on 2nd & 4th Saturdays and public holidays."
     ]
   },
   {
-    "tag": "failed_transaction",
+    "tag": "net_banking_help",
     "patterns": [
-      "My bank transaction failed",
-      "Money was deducted but not received",
-      "My UPI payment failed",
-      "How can I get a failed payment refund?"
+      "forgot net banking password",
+      "reset internet banking password",
+      "how to unlock net banking",
+      "password reset"
     ],
     "responses": [
-      "Check your transaction status and allow the applicable reversal period. If the money is not returned, raise a complaint through your bank's official app or customer support using the transaction reference number."
+      "To reset your Net Banking password, click on 'Forgot Password/Username' on the login page and verify via OTP sent to your registered mobile number."
     ]
   }
 ]
