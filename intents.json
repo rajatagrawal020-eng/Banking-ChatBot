@@ -132,5 +132,18 @@
     "responses": [
       "To reset your Net Banking password, click on 'Forgot Password/Username' on the login page and verify via OTP sent to your registered mobile number."
     ]
+  },
+  {
+    "tag": "ifsc_code",
+    "patterns": [
+      "what is the ifsc code",
+      "how to find ifsc code",
+      "branch ifsc code",
+      "bank ifsc code details",
+      "ifsc code kya hai"
+    ],
+    "responses": [
+      "You can find your branch's 11-character IFSC code printed on your cheque book, passbook's front page, or by searching your branch name on our mobile banking app under 'Branch Locator'."
+    ]
   }
 ]
